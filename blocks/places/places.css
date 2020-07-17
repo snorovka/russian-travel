@@ -1,0 +1,30 @@
+@import url(./place/place.css);
+
+ * {
+   border: 1px solid yellow;
+  }
+
+.places {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(500px, 1fr));
+  margin: 0;
+  padding: 0 0 0 48px;
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    padding: 0 148px;
+  }
+ }
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding: 0 16px;
+  }

@@ -1,0 +1,12 @@
+.header__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+}
