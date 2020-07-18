@@ -11,8 +11,10 @@
 }*/
 
 .place {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: flex-start;
   width: 100%;
   margin: 0 auto;
