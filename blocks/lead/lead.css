@@ -39,7 +39,7 @@
     }*/
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 690px) {
     .lead {
       padding: 0;
     }
@@ -52,9 +52,9 @@
     .lead__caption {
       padding-left: 24px;
     }
-    /*.lead__image {
-      padding: 100px 0;
-    }*/
+    .lead__image {
+      padding: 115px 0;
+    }
   }
 
   @media screen and (max-width: 480px) {
@@ -77,7 +77,7 @@
       font-size: 16px;
     }
     .lead__image {
-      padding: 50px 0;
+      padding: 80px 0;
     }
   }
 
