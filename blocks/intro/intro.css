@@ -15,9 +15,6 @@
   .intro {
     padding-left: 148px;
   }
-  /*.intro__text {
-    max-width: 690px;
-  }*/
 }
 
 @media screen and (max-width: 768px) {
@@ -32,7 +29,13 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
+  .intro__title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .intro {
     padding: 0 16px;
   }

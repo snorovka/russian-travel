@@ -3,12 +3,28 @@
 @import url(../footer/__links/footer__links.css);
 
 .footer {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 0;
   padding: 92px 48px 24px 48px;
+}
+
+@media screen and (max-width: 780px) {
+  .footer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .footer__copyright {
+    padding: 16px 0 0;
+    font-size: 14px;
+    line-height: 1;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -17,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 570px) {
   .footer {
     flex-direction: column;
     flex-wrap: wrap;

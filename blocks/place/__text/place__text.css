@@ -1,0 +1,10 @@
+.place__text {
+  grid-area: text;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 50%;
+  margin: 0;
+}

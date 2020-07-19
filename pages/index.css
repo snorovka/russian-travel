@@ -2,6 +2,7 @@
 
 @import url(../vendor/fonts/fonts.css);
 
+/*курсор*/
 @import url(../blocks/cursor-pointer/cursor-pointer.css);
 
 /*блок всей страницы*/
@@ -16,13 +17,14 @@
 /*интро*/
 @import url(../blocks/intro/intro.css);
 
-
+/*фото-грид*/
 @import url(../blocks/photo-grid/photo-grid.css);
 
 /*места*/
 @import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
 
-
+/*обложка*/
 @import url(../blocks/cover/cover.css);
 
 /*подвал*/

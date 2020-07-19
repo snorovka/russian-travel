@@ -1,4 +1,5 @@
 .lead__subtitle {
+  box-sizing: border-box;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
