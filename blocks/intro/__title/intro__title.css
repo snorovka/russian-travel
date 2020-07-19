@@ -7,3 +7,22 @@
   margin: 0;
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro__title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro__title {
+    font-size: 32px;
+    padding-top: 64px;
+  }
+}

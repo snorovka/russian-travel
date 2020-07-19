@@ -1,4 +1,4 @@
-.place__website_link {
+.place__link {
   font-weight: normal;
   font-size: 18px;
   line-height: 1.2;
@@ -6,6 +6,7 @@
   text-decoration: underline;
 }
 
-.place__website_link:hover {
+.place__link:hover {
   opacity: .8;
+  cursor: url("../../../images/Pointer.svg"), auto;
 }

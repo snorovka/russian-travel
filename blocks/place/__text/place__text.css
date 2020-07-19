@@ -8,3 +8,9 @@
   min-width: 50%;
   margin: 0;
 }
+
+@media screen and (max-width: 640px) {
+  .place__text {
+      padding: 32px 0 0;
+  }
+}

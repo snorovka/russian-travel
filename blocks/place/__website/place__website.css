@@ -1,6 +1,3 @@
-@import url(./_link/place__website_link.css);
-@import url(./_url-heading/place__website_url-heading.css);
-
 .place__website {
   grid-area: website;
   box-sizing: border-box;
@@ -12,4 +9,10 @@
   align-content: flex-end;
   padding: 0;
   margin: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .place__website {
+    z-index: -1;
+  }
 }

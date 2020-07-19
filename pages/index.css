@@ -2,9 +2,6 @@
 
 @import url(../vendor/fonts/fonts.css);
 
-/*курсор*/
-@import url(../blocks/cursor-pointer/cursor-pointer.css);
-
 /*блок всей страницы*/
 @import url(../blocks/page/page.css);
 

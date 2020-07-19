@@ -5,3 +5,21 @@
   width: 100%;
   object-fit: cover;
 }
+
+@media screen and (min-width: 1280px) {
+  .place__image {
+    min-width: 460px;
+  }
+ }
+
+ @media screen and (max-width: 780px) {
+  .place__image {
+    min-width: 340px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .place__image {
+    min-width: 100%;
+  }
+}

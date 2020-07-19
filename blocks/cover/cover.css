@@ -1,11 +1,12 @@
-@import url(./__background/cover__background.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
+@import url(./__link/cover__link.css);
 
 .cover {
   background-image: url(../../images/cover-trains.jpg);
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -13,32 +14,4 @@
 
 .cover:hover .cover__overlay {
   background-color: rgba(42, 44, 47, .8);
-}
-
-@media screen and (max-width: 480px) {
-  .cover__title {
-    font-size: 40px;
-    line-height: 1.15;
-    max-width: 380px;
-    padding-bottom: 16px;
-    }
-  .cover__subtitle {
-    font-size: 16px;
-    line-height: 1.15;
-    max-width: 380px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__title {
-  font-size: 32px;
-  line-height: 1.15;
-  max-width: 288px;
-  padding-bottom: 16px;
-  }
-  .cover__subtitle {
-    font-size: 14px;
-    line-height: 1.15;
-    max-width: 288px;
-    }
 }

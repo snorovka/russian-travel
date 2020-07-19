@@ -1,6 +1,7 @@
 @import url(./__links/header__links.css);
 @import url(./__link/header__link.css);
 @import url(./__logo/header__logo.css);
+@import url(./__link/_lang/header__link_lang_active.css);
 
 .header {
   display: flex;
@@ -28,14 +29,6 @@
   .header {
     padding: 16px 16px 48px;
    }
-   .header__links {
-    font-size: 18px;
-    line-height: 1.5;
-   }
-   .header__logo {
-    width: 142px;
-    height: 42px;
-  }
  }
 
 
