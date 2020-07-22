@@ -4,25 +4,48 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 0;
-  padding: 92px 48px 0 48px;
+  margin: 0 auto;
+  padding: 92px 0;
+  width: 100%;
+  max-width: 928px;
 }
 
 @media screen and (min-width: 1280px) {
   .places {
-    padding-left: 148px;
-    padding-right: 148px;
+    max-width: 984px;
   }
- }
+}
+
+@media screen and (max-width: 968px) {
+  .places {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .places {
-    padding: 88px 24px 0 24px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .places {
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
-    padding: 64px 0 0;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 }
+
+
+
+
+
+

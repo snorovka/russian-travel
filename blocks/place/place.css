@@ -10,7 +10,7 @@
   display: grid;
   box-sizing: border-box;
   grid-gap: 32px 48px;
-  grid-template-columns: fit-content(440px) 1fr;
+  grid-template-columns: fit-content(440px) fit-content(456px);
   grid-template-rows: fit-content(100%) minmax(min-content, max-content);
   grid-template-areas:
     "title website"
@@ -24,14 +24,14 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-    grid-template-columns: fit-content(460px) 1fr;
+    grid-template-columns: fit-content(460px) fit-content(484px);
     grid-column-gap: 40px;
   }
  }
 
 @media screen and (max-width: 780px) {
   .place {
-    grid-template-columns: fit-content(340px) 1fr;
+    grid-template-columns: fit-content(340px)  fit-content(352px);
     grid-column-gap: 28px;
     padding-bottom: 72px;
   }

@@ -4,21 +4,23 @@
 @import url(../intro/__span-accent/intro__span-accent.css);
 
 .intro {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 0;
-  padding: 0 0 0 48px;
+  width: 100%;
+  max-width: 928px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    padding-left: 148px;
+    max-width: 984px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   .intro {
     padding: 0 24px;
   }

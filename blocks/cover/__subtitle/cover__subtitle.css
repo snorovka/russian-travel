@@ -5,15 +5,26 @@ font-size: 18px;
 line-height: 1.2;
 text-align: center;
 max-width: 360px;
-padding: 0;
+padding: 0 0 195px 0;
 margin: 0;
 color: white;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__subtitle {
+    padding-bottom: 245px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    padding-bottom: 115px;
+    }
 }
 
 @media screen and (max-width: 480px) {
   .cover__subtitle {
     font-size: 16px;
-    line-height: 1.15;
     max-width: 380px;
     }
 }
@@ -21,7 +32,7 @@ color: white;
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     font-size: 14px;
-    line-height: 1.15;
     max-width: 288px;
+    padding: 0;
     }
 }

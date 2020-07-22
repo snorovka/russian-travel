@@ -1,20 +1,21 @@
 .place__image {
   grid-area: image;
   box-sizing: border-box;
-  min-width: 440px;
+
+  max-width: 440px;
   width: 100%;
   object-fit: cover;
 }
 
 @media screen and (min-width: 1280px) {
   .place__image {
-    min-width: 460px;
+    max-width: 460px;
   }
  }
 
  @media screen and (max-width: 780px) {
   .place__image {
-    min-width: 340px;
+    max-width: 340px;
   }
 }
 
